@@ -20,6 +20,7 @@ Estructura del proyecto
 El proyecto consta de los siguientes archivos:
 
 `index.html:` Contiene el código HTML que define la estructura de la página web.
+
 `app.js:` Contiene el código JavaScript que maneja la lógica de visualización de las tarjetas de pizza.
 
 ### Carpeta assets: Contiene las imágenes utilizadas en la página.

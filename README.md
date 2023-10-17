@@ -23,7 +23,7 @@ El proyecto consta de los siguientes archivos:
 
 `app.js:` Contiene el código JavaScript que maneja la lógica de visualización de las tarjetas de pizza.
 
-### Carpeta assets: Contiene las imágenes utilizadas en la página.
+**Carpeta assets: Contiene las imágenes utilizadas en la página.**
 
 ## Cómo contribuir
 

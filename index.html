@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Meche | Restaurante</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/icono.png" type="image/x-icon" />
+  </head>
+  <body class="flex flex-col" style="min-height: 100vh; margin: 0">
+    <div
+      class="banner h-60 flex justify-center items-center"
+      style="
+        background-image: url('./assets/pizza.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      "
+    >
+      <div class="absolute inset-0 bg-black opacity-60"></div>
+      <div class="text-center text-white relative z-10">
+        <h1 class="text-4xl font-bold">La Meche</h1>
+        <h2 class="text-2xl">Las mejores pizzas de la ciudad</h2>
+      </div>
+    </div>
+
+    <div id="pizzasContainer" class="menu grid grid-cols-3 gap-4 p-10">
+      <!-- Aquí se mostrarán las tarjetas de las pizzas -->
+    </div>
+    <footer
+      class="bg-gray-800 text-white text-center p-4"
+      style="margin-top: auto; width: 100%"
+    >
+      <p>&copy; 2023 La Meche - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
